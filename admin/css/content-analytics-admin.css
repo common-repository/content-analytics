@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ table.lca-table {
+   margin: 0;
+   padding: 0;
+   border-collapse: collapse;
+   border-spacing: 0;
+   border: 0;
+   width: 100%;
+ }
+ table .lca-hdr th, table .lca-hdr td {
+   background: #fff;
+   border-top: 1px solid #f0f0f0;
+   border-bottom: 1px solid #f0f0f0;
+ }
+ table tr:first-child.lca-hdr th, table tr:first-child.lca-hdr td {
+   border-top: 0;
+ }
+ .lca-table th, .lca-table td {
+   background: #fafafa;
+ }
+ td.lct-table-help {
+   text-align: right;
+ }
+ .lca-stat {
+   text-align: right;
+ }
+ .lca-fr {
+   float: right;
+ }
+ .lca-detailed {
+   white-space: pre-wrap;
+   color: #666;
+ }
+ .lca-table tr {
+   margin: 0;
+   padding: 0;
+ }
+ .lca-table th, td {
+   padding: 3px;
+ }
+ .lca-table th {
+   width: 40%;
+   text-align: left;
+ }
+
+ .lca-report-hdr {
+   background: #f3f3f3;
+   padding: 5px 10px 5px 12px;
+   margin-top: 5px;
+   margin-left: -12px;
+   margin-right: -12px;
+   color: #000;
+   font-weight: bold;
+ }
+ .lca-refresh-link {
+   cursor: pointer;
+   color: #ccc;
+   padding-right: 5px;
+   padding-left: 5px;
+ }
+ .lca-refresh-link:hover {
+   color: #0073aa;
+ }
+ .lca-refresh-link:focus {
+  outline: none;
+}
+
+.lca-img-loader {
+  content:url("../img/lingotek-loading-100x100.gif");
+}
+.lca-img-loader-sm {
+  content:url("../img/lingotek-loading-50x50.gif");
+}
+
+ /* COLORS */
+ .lca-good {
+   color: green;
+ }
+ .lca-bad {
+   color: red;
+ }
+ .lca-warn {
+   color: darkorange;
+ }
+ .lca-muted {
+   color: #aaa;
+ }
+ .lca-fw {
+   display: inline-block;
+   width: 1em;
+   text-align: right;
+ }
+
+ #lca-refresh-btn {
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+
+ .lca-loader {
+   text-align: center;
+   padding: 20px;
+ }
